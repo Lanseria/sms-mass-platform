@@ -11,7 +11,7 @@ var mongoStore = require('connect-mongo')(session);
 
 //config
 var config = require('./config');
-var dbUrl = 'mongodb://localhost/msgweb';
+var dbUrl = 'mongodb://mongo/msgweb';
 var port = process.env.PORT || 3000;
 
 var app = express();
